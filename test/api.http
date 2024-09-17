@@ -1,10 +1,8 @@
 ###
-
 GET  http://localhost:8000
 Accept : application/json
 
 ###
-
 POST http://localhost:8000
 Accept : application/json
 Content-Type : application/json
@@ -13,19 +11,19 @@ Content-Type : application/json
   "text":"ryugen"
 }
 
-###
 
+###
 PUT http://localhost:8000
-Accept : application/json
-Content-Type : application/json
+accept : application/json
+content-type : application/json
 
 {
   "id":1,
   "text":"gen"
 }
 
-###
 
+###
 DELETE http://localhost:8000
 Accept : application/json
 
